@@ -1,0 +1,260 @@
+{
+	"measurements": [
+	  {
+		"metrics": "AggregationMetrics",
+		"measurement": [
+		  "dell_poweredge_SystemAvgInletTempHour",
+		  "dell_poweredge_SystemMaxInletTempHour",
+		  "dell_poweredge_SystemMaxPowerConsumption"
+		]
+	  },
+	  {
+		"metrics": "CPUMemMetrics",
+		"measurement": [
+		  "dell_poweredge_AvgFrequencyAcrossCores",
+		  "dell_poweredge_CPUC0ResidencyHigh",
+		  "dell_poweredge_CPUC0ResidencyLow",
+		  "dell_poweredge_CPUPkgEnergy",
+		  "dell_poweredge_CUPSIIOBandwidthDMI",
+		  "dell_poweredge_CUPSIIOBandwidthPort0",
+		  "dell_poweredge_CUPSIIOBandwidthPort1",
+		  "dell_poweredge_CUPSIIOBandwidthPort2",
+		  "dell_poweredge_CUPSIIOBandwidthPort3",
+		  "dell_poweredge_DRAMPkgEnergy",
+		  "dell_poweredge_EnergyTimestamp",
+		  "dell_poweredge_LimitingEvents",
+		  "dell_poweredge_NonC0ResidencyHigh",
+		  "dell_poweredge_NonC0ResidencyLow"
+		]
+	  },
+	  {
+		"metrics": "CPUSensor",
+		"measurement": [
+		  "dell_poweredge_TemperatureReading"
+		]
+	  },
+	  {
+		"metrics": "FanSensor",
+		"measurement": [
+		  "dell_poweredge_RPMReading"
+		]
+	  },
+	  {
+		"metrics": "GPUMetrics",
+		"measurement": [
+		  "dell_poweredge_BoardPowerSupplyStatus",
+		  "dell_poweredge_GPUHealth",
+		  "dell_poweredge_GPUStatus",
+		  "dell_poweredge_MemoryTemperature",
+		  "dell_poweredge_PowerBrakeState",
+		  "dell_poweredge_PowerSupplyStatus",
+		  "dell_poweredge_PrimaryTemperature",
+		  "dell_poweredge_SecondaryTemperature",
+		  "dell_poweredge_ThermalAlertState"
+		]
+	  },
+	  {
+		"metrics": "MemorySensor",
+		"measurement": [
+		  "dell_poweredge_TemperatureReading"
+		]
+	  },
+	  {
+		"metrics": "NICSensor",
+		"measurement": [
+		  "dell_poweredge_TemperatureReading"
+		]
+	  },
+	  {
+		"metrics": "NICStatistics",
+		"measurement": [
+		  "dell_poweredge_DiscardedPkts",
+		  "dell_poweredge_LinkStatus",
+		  "dell_poweredge_PartitionLinkStatus",
+		  "dell_poweredge_OSDriverState",
+		  "dell_poweredge_PartitionOSDriverState",
+		  "dell_poweredge_RDMARxTotalBytes",
+		  "dell_poweredge_RDMARxTotalPackets",
+		  "dell_poweredge_RDMATotalProtectionErrors",
+		  "dell_poweredge_RDMATotalProtocolErrors",
+		  "dell_poweredge_RDMATxTotalBytes",
+		  "dell_poweredge_RDMATxTotalPackets",
+		  "dell_poweredge_RDMATxTotalReadReqPkts",
+		  "dell_poweredge_RDMATxTotalSendPkts",
+		  "dell_poweredge_RDMATxTotalWritePkts",
+		  "dell_poweredge_RxBroadcast",
+		  "dell_poweredge_RxBytes",
+		  "dell_poweredge_RxErrorPktAlignmentErrors",
+		  "dell_poweredge_RxErrorPktFCSErrors",
+		  "dell_poweredge_RxFalseCarrierDetection",
+		  "dell_poweredge_RxJabberPkt",
+		  "dell_poweredge_RxMutlicast",
+		  "dell_poweredge_RxPauseXOFFFrames",
+		  "dell_poweredge_RxPauseXONFrames",
+		  "dell_poweredge_RxRuntPkt",
+		  "dell_poweredge_RxUnicast",
+		  "dell_poweredge_TxBroadcast",
+		  "dell_poweredge_TxBytes",
+		  "dell_poweredge_TxErrorPktExcessiveCollision",
+		  "dell_poweredge_TxErrorPktLateCollision",
+		  "dell_poweredge_TxErrorPktMultipleCollision",
+		  "dell_poweredge_TxErrorPktSingleCollision",
+		  "dell_poweredge_TxMutlicast",
+		  "dell_poweredge_TxPauseXOFFFrames",
+		  "dell_poweredge_TxPauseXONFrames",
+		  "dell_poweredge_TxUnicast"
+		]
+	  },
+	  {
+		"metrics": "NVMeSMARTData",
+		"measurement": [
+		  "dell_poweredge_AvailableSpare",
+		  "dell_poweredge_AvailableSpareThreshold",
+		  "dell_poweredge_CompositeTemperature",
+		  "dell_poweredge_ControllerBusyTimeLower",
+		  "dell_poweredge_ControllerBusyTimeUpper",
+		  "dell_poweredge_CriticalWarning",
+		  "dell_poweredge_DataUnitsReadLower",
+		  "dell_poweredge_DataUnitsReadUpper",
+		  "dell_poweredge_DataUnitsWrittenLower",
+		  "dell_poweredge_DataUnitsWrittenUpper",
+		  "dell_poweredge_HostReadCommandsLower",
+		  "dell_poweredge_HostReadCommandsUpper",
+		  "dell_poweredge_HostWriteCommandsLower",
+		  "dell_poweredge_HostWriteCommandsUpper",
+		  "dell_poweredge_MediaDataIntegrityErrorsLower",
+		  "dell_poweredge_NumOfErrorInfoLogEntriesLower",
+		  "dell_poweredge_MediaDataIntegrityErrorsUpper",
+		  "dell_poweredge_NumOfErrorInfoLogEntriesUpper",
+		  "dell_poweredge_PercentageUsed",
+		  "dell_poweredge_PowerCyclesLower",
+		  "dell_poweredge_PowerCyclesUpper",
+		  "dell_poweredge_PowerOnHoursLower",
+		  "dell_poweredge_PowerOnHoursUpper",
+		  "dell_poweredge_UnsafeShutdownsLower",
+		  "dell_poweredge_UnsafeShutdownsUpper"
+		]
+	  },
+	  {
+		"metrics": "PSUMetrics",
+		"measurement": [
+		  "dell_poweredge_PSUTemperatureReading",
+		  "dell_poweredge_PSURPMReading"
+		]
+	  },
+	  {
+		"metrics": "PowerMetrics",
+		"measurement": [
+		  "dell_poweredge_SystemHeadRoomInstantaneous",
+		  "dell_poweredge_SystemInputPower",
+		  "dell_poweredge_SystemOutputPower",
+		  "dell_poweredge_SystemPowerConsumption",
+		  "dell_poweredge_TotalCPUPower",
+		  "dell_poweredge_TotalFPGAPower",
+		  "dell_poweredge_TotalFanPower",
+		  "dell_poweredge_TotalMemoryPower",
+		  "dell_poweredge_TotalPciePower",
+		  "dell_poweredge_TotalStoragePower"
+		]
+	  },
+	  {
+		"metrics": "PowerStatistics",
+		"measurement": [
+		  "dell_poweredge_LastDayAvgPower",
+		  "dell_poweredge_LastDayMaxPower",
+		  "dell_poweredge_LastHourAvgPower",
+		  "dell_poweredge_LastHourMaxPower",
+		  "dell_poweredge_LastHourMinPower",
+		  "dell_poweredge_LastMinuteAvgPower",
+		  "dell_poweredge_LastMinuteMaxPower",
+		  "dell_poweredge_LastMinuteMinPower",
+		  "dell_poweredge_LastWeekAvgPower",
+		  "dell_poweredge_LastWeekMaxPower",
+		  "dell_poweredge_LastWeekMinPower"
+		]
+	  },
+	  {
+		"metrics": "Sensor",
+		"measurement": [
+		  "dell_poweredge_AmpsReading",
+		  "dell_poweredge_CPUUsagePctReading",
+		  "dell_poweredge_IOUsagePctReading",
+		  "dell_poweredge_MemoryUsagePctReading",
+		  "dell_poweredge_RPMReading",
+		  "dell_poweredge_SystemUsagePctReading",
+		  "dell_poweredge_TemperatureReading",
+		  "dell_poweredge_VoltageReading",
+		  "dell_poweredge_WattsReading"
+		]
+	  },
+	  {
+		"metrics": "StorageDiskSMARTData",
+		"measurement": [
+		  "dell_poweredge_CRCErrorCount",
+		  "dell_poweredge_CommandTimeout",
+		  "dell_poweredge_CurrentPendingSectorCount",
+		  "dell_poweredge_DriveTemperature",
+		  "dell_poweredge_ECCERate",
+		  "dell_poweredge_EraseFailCount",
+		  "dell_poweredge_ExceptionModeStatus",
+		  "dell_poweredge_MediaWriteCount",
+		  "dell_poweredge_PercentDriveLifeRemaining",
+		  "dell_poweredge_PowerCycleCount",
+		  "dell_poweredge_PowerOnHours",
+		  "dell_poweredge_ProgramFailCount",
+		  "dell_poweredge_ReadErrorRate",
+		  "dell_poweredge_ReallocatedBlockCount",
+		  "dell_poweredge_UncorrectableErrorCount",
+		  "dell_poweredge_UncorrectableLBACount",
+		  "dell_poweredge_UnusedReservedBlockCount",
+		  "dell_poweredge_UsedReservedBlockCount",
+		  "dell_poweredge_VolatileMemoryBackupSourceFailures"
+		]
+	  },
+	  {
+		"metrics": "StorageSensor",
+		"measurement": [
+		  "dell_poweredge_TemperatureReading"
+		]
+	  },
+	  {
+		"metrics": "SystemUsage",
+		"measurement": [
+		  "dell_poweredge_AggregateUsage",
+		  "dell_poweredge_CPUUsage",
+		  "dell_poweredge_IOUsage",
+		  "dell_poweredge_MemoryUsage"
+		]
+	  },
+	  {
+		"metrics": "TemperatureSensorD4D",
+		"measurement": [
+		  "dell_poweredge_PSUTemperatureReading",
+		  "dell_poweredge_PrimaryTemperature",
+		  "dell_poweredge_TemperatureReading"
+		]
+	  },
+	  {
+		"metrics": "ThermalMetrics",
+		"measurement": [
+		  "dell_poweredge_ComputePower",
+		  "dell_poweredge_ITUE",
+		  "dell_poweredge_PSUEfficiency",
+		  "dell_poweredge_PowerToCoolRatio",
+		  "dell_poweredge_SysAirFlowEfficiency",
+		  "dell_poweredge_SysAirflowPerFanPower",
+		  "dell_poweredge_SysAirflowPerSysInputPower",
+		  "dell_poweredge_SysAirflowUtilization",
+		  "dell_poweredge_SysNetAirflow",
+		  "dell_poweredge_SysRackTempDelta",
+		  "dell_poweredge_TotalPSUHeatDissipation"
+		]
+	  },
+	  {
+		"metrics": "ThermalSensor",
+		"measurement": [
+		  "dell_poweredge_TemperatureReading"
+		]
+	  }
+	]
+  }

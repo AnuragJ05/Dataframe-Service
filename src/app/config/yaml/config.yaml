@@ -1,0 +1,24 @@
+destination: 
+  active_db: "influxdb"
+  # postgres/influxdb/kafka
+influx:
+  url : "http://172.31.0.25:30600"
+  token : "HMfiBN4r2MQHjvwvANNvIVE2WBo5T0lu"
+  organization : "04dd124d7629fd55"
+postgres:
+  pg_user: "postgres"
+  pg_password: "Dell0SS!"
+  pg_host: "localhost"
+  pg_port: "5432"
+  pg_db: "demo"
+kafka:
+  brokers: ["localhost:9092"]
+log:
+  location: "dataframe-service/"
+  # error, warning, info, debug
+  level: "info"
+  maxbackups: 250
+  maxage: 60   #days
+file:
+  file_path: "/var/www/html/"
+  file_url: "http://100.67.30.48:8000/"
